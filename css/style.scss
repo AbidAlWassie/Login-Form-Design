@@ -1,11 +1,13 @@
-html, body * { box-sizing: border-box; font-family: 'Open Sans', sans-serif; }
+html, body * {
+  box-sizing: border-box; font-family: 'Open Sans', sans-serif;
+}
 
 body {
   background:
     linear-gradient(
-      rgba(246,247,249,0.8),
-      rgba(246,247,249,0.8)),
-      url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/sky-clouds-cloudy-mountain.jpg) no-repeat center center fixed;
+      rgba(22, 37, 73, 0.7),
+      rgba(22, 37, 73, 0.7)),
+      url("../img/pexels-bri-schneiter-346529.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -18,11 +20,7 @@ body {
 .frame {
   height: 575px;
   width: 430px;
-  background:
-          linear-gradient(
-                          rgba(35,43,85,0.75),
-                          rgba(35,43,85,0.95)),
-          url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/clouds-cloudy-forest-mountain.jpg) no-repeat center center;
+  background: rgba(19, 32, 60, 0.68);
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
@@ -411,7 +409,7 @@ a.btn-signup:hover, a.btn-signin:hover {
           linear-gradient(
                           rgba(35,43,85,0.75),
                           rgba(35,43,85,0.95)),
-          url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/landscape-nature-man-person.jpeg);
+          url("../img/pexels-bri-schneiter-346529.jpg");
   background-size: cover;
   opacity: 0;
   transition: all 1.5s ease 0.55s;
@@ -429,7 +427,7 @@ a.btn-signup:hover, a.btn-signin:hover {
   border-radius: 70px;
   left: 155px;
   top: -1000px;
-  background: url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/nature-water-rocks-hiking.jpg);
+  background: url("../img/pexels-bri-schneiter-346529.jpg");
   background-size: 100% 135%;
   background-position: 100% 100%;
   opacity: 0;
