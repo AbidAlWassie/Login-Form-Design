@@ -2,41 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Login Form Design</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div class="container">
   <div class="frame">
-    <div class="nav">
+    <div class="options-nav">
       <ul class="links">
         <li class="signin-active"><a class="btn">Sign in</a></li>
         <li class="signup-inactive"><a class="btn">Sign up </a></li>
       </ul>
     </div>
     <div ng-app ng-init="checked = false">
-      <form class="form-signin" action="" method="post" name="form">
+      <form class="form-signin" action="" method="POST" name="form">
         <label for="username">Username</label>
         <input class="form-styling" type="text" name="username" placeholder=""/>
+
         <label for="password">Password</label>
         <input class="form-styling" type="text" name="password" placeholder=""/>
+
         <input type="checkbox" id="checkbox"/>
         <label for="checkbox" ><span class="ui"></span>Keep me signed in</label>
+
         <div class="btn-animate">
           <a class="btn-signin">Sign in</a>
         </div>
       </form>
 
-      <form class="form-signup" action="" method="post" name="form">
+      <form class="form-signup" action="" method="POST" name="form">
         <label for="fullname">Full name</label>
         <input class="form-styling" type="text" name="fullname" placeholder=""/>
+
         <label for="email">Email</label>
         <input class="form-styling" type="text" name="email" placeholder=""/>
+
         <label for="password">Password</label>
         <input class="form-styling" type="text" name="password" placeholder=""/>
+
         <label for="confirmpassword">Confirm password</label>
         <input class="form-styling" type="text" name="confirmpassword" placeholder=""/>
+
         <a ng-click="checked = !checked" class="btn-signup">Sign Up</a>
       </form>
 

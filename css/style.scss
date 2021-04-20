@@ -17,6 +17,7 @@ body {
   padding-bottom: 100px;
 }
 
+//LOGIN SECTION
 .frame {
   height: 575px;
   width: 430px;
@@ -31,17 +32,19 @@ body {
   transition: all .5s ease;
 }
 
+//SIGNUP SECTION
 .frame-long {
   height: 615px;
 }
 
+//THIS CURRENTLY HAS NO PURPOSE
 .frame-short {
   height: 400px;
   margin-top: 50px;
   box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
 }
 
-.nav {
+.options-nav {
   width: 100%;
   height: 100px;
   padding-top: 40px;
